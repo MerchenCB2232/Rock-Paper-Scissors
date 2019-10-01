@@ -1,6 +1,7 @@
 # Cameron Merchen 
 # Rock Paper Scissors
 # rps.py
+# added comment for github
 import random
 #Variables
 pScore = 0
@@ -69,7 +70,7 @@ while True:
 			print ("Computer picks Scissors")
 			print ("Scissors cuts Paper")
 			cScore += 1
-#prints score
+# prints score
 		printScore()
 # player picks scissors
 	elif pMove == "s":
@@ -86,7 +87,7 @@ while True:
 			print ("Computer picks Scissors")
 			print ("Tie")
 			tie += 1
-#prints score		
+# prints score		
 		printScore()
 # check is pMove is valid
 	else:
